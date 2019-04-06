@@ -1,0 +1,33 @@
+{
+  "name": "pngtopgm",
+  "version": "1.0.1",
+  "description": "A simple function to convert png files to pgm files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-compton/pngToPgm.git"
+  },
+  "keywords": [
+    "png",
+    "pgm",
+    "node",
+    "javascript"
+  ],
+  "author": "Edward Compton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-compton/pngToPgm/issues"
+  },
+  "homepage": "https://github.com/e-compton/pngToPgm#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "pngjs": "^3.4.0"
+  }
+}
