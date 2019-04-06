@@ -1,0 +1,30 @@
+---
+extends: "eslint:recommended"
+parserOptions:
+  ecmaVersion: 2017
+env:
+  browser: true
+  node: true
+  mocha: true
+  jquery: true
+  es6: true
+globals:
+  linkifyStr: false
+rules:
+  no-console: "off"
+  no-empty: "off"
+  no-unused-vars: "warn"
+  strict: "warn"
+  semi: "error"
+  eol-last: "warn"
+  quotes:
+    - "warn"
+    - "single"
+  spaced-comment:
+    - "warn"
+    - "always"
+  space-before-function-paren:
+    - "warn"
+    - anonymous: always
+      named: never
+      asyncArrow: ignore
